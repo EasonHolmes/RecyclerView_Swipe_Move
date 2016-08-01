@@ -4,9 +4,6 @@ import android.graphics.Canvas;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.helper.ItemTouchHelper;
 
-/**
- * Created by cuiyang on 16/7/19.
- */
 public class SimpleItemTouchHelper extends ItemTouchHelper.Callback {
 
     private onMoveAndSwipedListener mAdapter;

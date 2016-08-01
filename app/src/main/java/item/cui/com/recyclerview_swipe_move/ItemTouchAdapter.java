@@ -9,9 +9,6 @@ import android.widget.TextView;
 import java.util.Collections;
 import java.util.List;
 
-/**
- * Created by cuiyang on 16/7/19.
- */
 public class ItemTouchAdapter extends RecyclerView.Adapter<ItemTouchAdapter.ViewHolder> implements onMoveAndSwipedListener {
 
 
