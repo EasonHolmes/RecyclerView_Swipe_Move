@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity implements
         mRecyclerView.setAdapter(adapter);
 
         //设置ItemTouchHelper回调
-        ItemTouchHelper.Callback callback = new SimpleItemTouchHelper(adapter);
+        SimpleItemTouchHelper callback = new SimpleItemTouchHelper(adapter);
         mItemTouchHelper = new ItemTouchHelper(callback);
         //关联RecyclerView与ItemTouchHelper
         mItemTouchHelper.attachToRecyclerView(mRecyclerView);
